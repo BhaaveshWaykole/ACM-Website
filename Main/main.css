@@ -42,10 +42,15 @@ nav ul li:hover {
 }
 
 .cont_1 {
-    background-image: url(SIT.jpg);
     margin-left: 10em;
     text-align: left;
     width: 36vw;
+}
+
+.img{
+    background-image: url("SIT.jpg");
+    width: 100%;
+    height: 100%;
 }
 
 .txt_format {
