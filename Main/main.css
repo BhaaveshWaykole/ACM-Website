@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* color: #EEEEEE; */
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav {
+    padding: 20px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 154px; */
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+.frnt-display {
+    display: flex;
+    color: #ffff;
+    height: 100vh;
+    align-items: center;
+    font-size: 40;
+}
+
+.cont_1 {
+    background-image: url(SIT.jpg);
+    margin-left: 10em;
+    text-align: left;
+    width: 36vw;
+}
+
+.txt_format {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.cont_2 {
+    font-size: 40px;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+label{
+    margin-top: 20px;
+    font-size: 20px; 
+    height: 30px;
+}
+
+label input {
+    height: 30px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.contact-inp{
+    display: inline-flex;
+    background-color: #EEEEEE;
+    color: #000000;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 50px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#contact{
+    text-align: center;
+}
+
+footer{
+    background-color: #EEEEEE;
+    color: #000000;
+    height : 150px;
+}
+
+.Details{
+    display: inline-flex;
+    text-align: left;
+}
+
+.us p{
+    display: block;
+    text-align: center;
+}
