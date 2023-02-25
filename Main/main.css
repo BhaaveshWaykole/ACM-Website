@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    /* color: #EEEEEE; */
 }
 
 body {
@@ -29,6 +28,10 @@ nav {
     /* height: 154px; */
 }
 
+nav img{
+    margin-right: auto;
+    height : 8vh;
+}
 nav ul li:hover {
     text-decoration: underline;
 }
@@ -59,6 +62,7 @@ nav ul li:hover {
 }
 
 .cont_2 {
+    margin-top : 20px;
     font-size: 40px;
 }
 
@@ -103,12 +107,24 @@ footer{
     height : 150px;
 }
 
-.Details{
+/* .Details{
     display: inline-flex;
     text-align: left;
-}
+} */
 
 .us p{
     display: block;
+    background-color: grey;
+    color: white;
     text-align: center;
+}
+
+.Details ul{
+    display: flex;
+}
+
+.Details ul a img{
+    height: 3.2vh;
+    padding: 4px 0px;
+    margin-left: 5px ;
 }
